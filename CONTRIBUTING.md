@@ -2,11 +2,11 @@
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
--   Reporting an issue;
--   Discussing the current state of the code;
--   Submitting a fix;
--   Proposing new features;
--   Becoming a maintainer;
+- Reporting an issue;
+- Discussing the current state of the code;
+- Submitting a fix;
+- Proposing new features;
+- Becoming a maintainer;
 
 ## All Changes Happen Through Pull Requests
 
@@ -36,7 +36,6 @@ More broadly, in short, test.me will:
 This can be easily done by hand, but can become somewhat cumbersome when you have to do it for many solutions and many tests. This is where test.me comes in. It automates this process for you, so you can focus on writing your code and tests.
 
 Following the logic above, test.me can easily support any language by just changing the compilation and execution commands (of course, it'll only work if the language is installed in the system). Currently, test.me supports only C. If you want to add support for another language, feel free to do so. Most of the work will probably be writing the logic to identify the file extension and select which way to run each language.
-
 
 <div align="center">➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖</div>
 
@@ -103,6 +102,7 @@ After installing valgrind and clang-format, you can use the following commands:
 ## Before your PR
 
 Before you submit a pull request, please make sure you have:
+
 1. Ran `make run_all` and `make valgrind` to check if everything is working properly;
 2. Ran `make format` to format the code;
 3. Updated the documentation related to the functionality you implemented, if necessary.
@@ -123,14 +123,14 @@ TBA
 
 **Great Bug Reports** tend to have:
 
--   A quick summary and/or background
--   Steps to reproduce
-    -   Be specific!
-    -   Share the snapshot, if possible.
-    -   GitHub Readme Stats' live link
--   What actually happens
--   What you expected would happen
--   Notes (possibly including why you think this might be happening or stuff you tried that didn't work)
+- A quick summary and/or background
+- Steps to reproduce
+  - Be specific!
+  - Share the snapshot, if possible.
+  - GitHub Readme Stats' live link
+- What actually happens
+- What you expected would happen
+- Notes (possibly including why you think this might be happening or stuff you tried that didn't work)
 
 People _love_ thorough bug reports. I'm not even kidding.
 
@@ -138,9 +138,9 @@ People _love_ thorough bug reports. I'm not even kidding.
 
 **Great Feature Requests** tend to have:
 
--   A quick idea summary
--   What & why do you want to add the specific feature
--   Additional context like images, links to resources to implement the feature, etc.
+- A quick idea summary
+- What & why do you want to add the specific feature
+- Additional context like images, links to resources to implement the feature, etc.
 
 ## License
 
